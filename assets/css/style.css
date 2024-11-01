@@ -1,0 +1,68 @@
+.sp-alert {
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.sp-alert-success {
+    background-color: #04AA6D;
+}
+
+.sp-alert-danger {
+    background-color: #f44336;
+}
+
+.sp-alert-warning {
+    background-color: #ff9800;
+}
+
+.sp-form input[type=text], .sp-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+  
+.sp-form button[type=submit],
+.sp-form button[type=submit]:focus {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 6px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.sp-form button[type=submit]:hover {
+    background-color: #1743FE;
+    color: white;
+}
+
+.sp-spinner {
+    width: 16px;
+    height: 16px;
+    border: 3px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+  
